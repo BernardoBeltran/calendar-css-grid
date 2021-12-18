@@ -1,0 +1,81 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.months{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.month{
+    text-align: center;
+    width: 300px;
+    border: solid 1px #5bc0de;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+li{
+    text-align: right;
+}
+
+.first-day-january{
+    grid-column-start: 5;
+}
+
+.first-day-april{
+    grid-column-start: 4;
+}
+
+.first-day-may{
+    grid-column-start: 6;
+}
+
+.first-day-june{
+    grid-column-start: 2;
+}
+
+.first-day-july{
+    grid-column-start: 4;
+}
+
+.first-day-august{
+    grid-column-start: 7;
+}
+
+.first-day-september{
+    grid-column-start: 3;
+}
+
+.first-day-october{
+    grid-column-start: 5;
+}
+
+.first-day-december{
+    grid-column-start: 3;
+}
+
+#programmers-birthday{
+    background: green;
+    font-weight: bold;
+    cursor:grab;
+}
+
+
+.day-name{
+    background: #5bc0de;
+    font-weight: bold;
+    text-align: center;
+}
